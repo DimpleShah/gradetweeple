@@ -1,0 +1,20 @@
+<html><head><title>The Dormouse's story</title></head>
+<body>
+<p class="title"><b>The Dormouse's story</b></p>
+
+<p class="story">Once upon a time there were three little sisters; and their names were
+
+<form action="/gotobs2" method="post">
+<a href="bs2.html" class="sister" id="link1">Elsie</a>,
+</form>
+<!--/home/dimple/Documents/flasktry/templates/-->
+<a href="bs3.html" class="sister" id="link2">Lacie</a> and
+
+<a href="http://google.com" class="sister" id="link3">Tillie</a>;
+
+and they lived at the bottom of a well.</p>
+
+<p class="story">...</p>
+
+</body>
+</html>

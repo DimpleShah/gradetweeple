@@ -1,0 +1,21 @@
+
+body
+{
+	background-image:url(bg.jpg);
+	position:absolute;
+	height:100px;
+	width:100px;
+}
+
+#wall
+{
+	position:relative;
+	top:50px;
+	left:175px;
+}
+
+#logo
+{
+	position:relative;
+	left:31px;
+}

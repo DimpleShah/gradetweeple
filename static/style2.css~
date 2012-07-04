@@ -1,0 +1,99 @@
+
+body {
+background-image:url('/home/dimple/Documents/flasktry/static/blue1.jpg');
+}
+
+#use{
+position:absolute;
+top:200px;
+left:450px;
+}
+
+#no{
+position:absolute;
+top:600px;
+left:460px;
+}
+
+#uname{
+position: absolute;
+left: 350px;
+top: 200px;
+color: #2554C7;
+font-weight: bold;
+display: block;
+
+}
+
+#login{
+position: absolute;
+left: 350px;
+top: 300px;
+color: #2554C7;
+font-weight: bold;
+display: block;
+}
+
+
+#followers{
+position: absolute;
+left: 350px;
+top: 400px;
+color: #2554C7;
+font-weight: bold;
+display: block;
+
+}
+
+#following{
+position: absolute;
+left: 350px;
+top: 500px;
+color: #2554C7;
+font-weight: bold;
+display: block;
+
+}
+#tweets{
+position: absolute;
+left: 350px;
+top: 600px;
+color: #2554C7;
+font-weight: bold;
+display: block;
+
+}
+
+#im{
+position: absolute;
+left: 150px;
+top: 400px;
+
+}
+#im1{
+position: absolute;
+left: 450px;
+top: 200px;
+
+}
+#im2{
+position:absolute;
+left:50px;
+top:50px;
+}
+
+#im3{
+position:absolute;
+left:500px;
+top:50px;
+}
+
+#tweeting_since
+{
+position: absolute;
+left: 350px;
+top: 650px;
+color: #2554C7;
+font-weight: bold;
+display: block;
+}

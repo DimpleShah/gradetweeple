@@ -1,0 +1,32 @@
+<html>
+
+<head>
+<script type="text/javascript">
+function processdata()
+{
+	var un=document.getElementById('uname1');
+	alert("hI " + un.value);
+}
+</script>
+</head>
+
+<body>
+<!--<form action="appPY.py" method="post">
+Username: <input type="text" name="uname" value=" " id="uname1">
+<input type="button" name="sub" onclick="processdata();" value="Submit">
+</form> -->
+
+<form action="/myform" method="post">
+Username2: <input type="text2" name="uname2" value=" " id="uname2"> </input>
+<input type="Submit" name="sub2" onclick="processdata();" value="Submit">
+</form>
+
+</body>
+
+<!--
+	#x=request.POST['uname']
+	#x=request.form['uname']
+	#x=request.get['uname']	
+	#x=self.request.form['uname']
+-->
+</html>

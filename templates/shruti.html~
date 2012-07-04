@@ -1,0 +1,65 @@
+<html>
+
+
+<head>
+
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='shruticss.css') }}">
+
+<script src="{{ url_for('static', filename='shrutijs1.js') }}"></script>
+<!--
+<script type="text/javascript">
+
+var image1=new Image()
+image1.src="{{ url_for('static', filename='tw-1.png') }}"
+var image2=new Image()
+image2.src="{{ url_for('static', filename='tw-2.jpg') }}"
+var image3=new Image()
+image3.src="{{ url_for('static', filename='tw-3.jpg') }}"
+
+var step=1
+function slideit(){
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<3)
+step++
+else
+step=1
+setTimeout("slideit()",1500)
+}
+//slideit()
+
+</script>
+-->
+
+
+</head>
+
+<body>
+
+<img src="{{ url_for('static', filename='tw-1.png') }}" name="slide" width=330 height=300>
+
+<script src="{{ url_for('static', filename='shrutijs1.js') }}">
+ 
+   slideit();
+</script>
+
+<label for="uname">USERNAME</label>
+<form method="post" action="">
+<textarea name="comments" cols="40" rows="2">
+
+</textarea><br>
+<!--<input type="submit" value="Submit" />-->
+</form>
+
+<!--<a class="button" href="#" >SUBMIT</a>-->
+<form action="#" method="get">
+  <input type="submit" value="Submit" />
+</form>
+
+
+<span class="imgpos">
+<img src="{{ url_for('static', filename='tw-4.png') }}" width="400" height="200" border="0"  >
+</span>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<html>
+
+<head>
+
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style1.css') }}">
+
+<title>First App!!</title>
+
+<script type="text/javascript">
+var image1=new Image()
+image1.src="{{ url_for('static', filename='tw-1.png') }}"
+var image2=new Image()
+image2.src="{{ url_for('static', filename='tw-2.jpg') }}"
+var image3=new Image()
+image3.src="{{ url_for('static', filename='tw-3.jpg') }}"
+var step=1
+function slideit(){
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<3)
+step++
+else
+step=1
+setTimeout("slideit()",2500)
+}
+
+</script>
+</head>
+
+<body>
+
+<span class="imgpos">
+<img src="{{ url_for('static', filename='tw-4.png') }}" width="300" height="100" border="0"  >
+</span>
+
+<div id="slshow" name="slshow" >
+
+<img src="{{ url_for('static', filename='tw-1.png') }}" id="slshow" name="slide" width=330 height=300 position=350>
+</div>
+
+<script>
+slideit()
+</script>
+
+<!--<label for="uname">USERNAME</label>
+<form method="post" action="">
+<textarea name="comments" cols="40" rows="1">
+
+</textarea><br>
+</form>
+-->
+
+<label for="unlabel">Twitter Username</label>
+<form method="post" action="/grade">
+<input type="text" name="uname" value=" " id="unid"> </input>
+<input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>
+
+
+<!--
+<html>
+
+<head>
+<title>FirstApp !!</title>
+</head>
+
+<body>
+
+<form action="/grade" method="post">
+Username2: <input type="text2" name="uname2" value=" " id="uname2"> </input>
+<input type="Submit" name="sub2" value="Submit">
+</form>
+
+</body>
+
+<!--
+	#x=request.POST['uname']
+	#x=request.form['uname']
+	#x=request.get['uname']	
+	#x=self.request.form['uname']
+
+</html>
+-->
+
+
+
+

@@ -1,0 +1,19 @@
+<html>
+
+<head>
+<script type="text/javascript" src="/home/dimple/Documents/flasktry/firstJS.js"> 
+function processdata()
+{
+var un = document.getElementById('uname1');
+alert('Hi ' + un.value);
+document.write('SSup ' + un.value);
+}
+</script>
+</head>
+
+<body>
+Username: <input type="text" name="uname" value=" " id="uname1">
+<input type="button" name="sub" onclick="processdata();" value="Submit">
+</body>
+
+</html>

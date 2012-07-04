@@ -1,0 +1,43 @@
+
+
+body {
+background-image:url('blue1.jpg');
+}
+
+textarea{
+position: absolute;
+left: 350px;
+top: 250px;
+
+}
+.button {
+  padding:5px;	
+  background-color: #2554C7;
+  border: 1px solid #666;
+  color:#ffff33;
+  text-decoration:none;
+   position: absolute;
+left: 350px;
+top: 300px;
+
+  }
+	
+.imgpos
+{
+position: absolute;
+top: 30px;
+left: 400px;
+}
+
+label {
+color: #2554C7;
+font-weight: bold;
+display: block;
+width: 200px;
+float: left;
+position: absolute;
+left: 350px;
+top: 200px;
+}
+
+

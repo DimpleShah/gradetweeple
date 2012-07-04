@@ -1,0 +1,51 @@
+
+body {
+background-image:url('blue1.jpg');
+
+}
+
+.imgpos
+{
+position: absolute;
+top: 10px;
+left: 400px;
+}
+
+textarea{
+position: absolute;
+left: 350px;
+top: 250px;
+}
+
+#slshow{
+position: absolute;
+left: 190px;
+top: 150px;
+
+}
+
+#sbutton {
+position: absolute;
+left: 500px;
+top: 250px;
+}
+	
+
+textarea{
+position: absolute;
+top: 200px;
+left: 450px;
+}
+
+
+label {
+color: #2554C7;
+font-weight: bold;
+display: block;
+width: 200px;
+float: left;
+position: absolute;
+left: 350px;
+top: 200px;
+}
+

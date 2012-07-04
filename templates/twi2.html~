@@ -1,0 +1,70 @@
+<html>
+
+<head>
+<title>Grade</title>
+
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style2.css') }}">
+
+</head>
+
+<body>
+
+<div id="im2">
+<img src="{{ url_for('static', filename='tweet-6.gif') }}" id="im2" name="grade" width=200 height=200 >
+</div>
+
+<div id="im3">
+<img src="{{ url_for('static', filename='tweet-6.gif') }}" id="im3" name="grade" width=200 height=200 >
+</div>
+
+<div id="im">
+<img src="{{ url_for('static', filename='tweet-6.jpg') }}" id="im" name="slide" width=600 height=400 >
+</div>
+
+<div id="im1">
+<img src="{{ url_for('static', filename='tweet-4.png') }}" id="im1" name="slide" width=330 height=300 >
+</div>
+
+<div id="uname" >
+<label for="uname">USERNAME</label>
+&nbsp;&nbsp;&nbsp;&nbsp;{{x}}
+</div>
+
+<div id="login">
+<label for="lname">LOGIN NAME</label>
+&nbsp;&nbsp;&nbsp;&nbsp;{{x}}
+<br>
+</div>
+
+<div id="followers" >
+<label for="fname">FOLLOWERS</label>
+&nbsp;&nbsp;&nbsp;&nbsp;{{y}}
+<br>
+</div>
+
+<div id="following" >
+<label for="following">FOLLOWING</label>
+&nbsp;&nbsp;&nbsp;&nbsp;{{w}}
+</div>
+
+<div id="tweets" >
+<label for="tweets">TWEETS</label>
+&nbsp;&nbsp;&nbsp;&nbsp;{{z}}
+</div>
+
+
+<div id="tweeting_since" >
+<label for="tweets">TWEETing since</label>
+&nbsp;&nbsp;&nbsp;&nbsp;{{twit}}
+</div>
+
+
+<div id="score" >
+<label for="tweets">score</label>
+&nbsp;&nbsp;&nbsp;&nbsp;{{s}}
+</div>
+
+ <img src="{{u}}" id="im2" width="100" height="100"> 
+
+</body>
+</html>

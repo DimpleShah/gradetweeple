@@ -1,0 +1,19 @@
+<html>
+
+<body>
+hello 
+<br>
+Username : {{ x }}
+<br>
+Followers: {{ y }}
+<br>
+No. of tweets: {{ z }}
+<br>
+Following: {{ w }}
+<br>
+{{ end }}
+
+bye
+</body>
+
+</html>
